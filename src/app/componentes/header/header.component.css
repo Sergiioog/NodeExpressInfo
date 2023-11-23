@@ -6,7 +6,15 @@ header {
     align-items: center;
     background-color: red;
 }
-.logoDiv {
+.logoDiv, .tituloDiv, .socialDiv  {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+}
+
+.logoDiv{
 
 }
 
