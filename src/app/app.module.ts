@@ -7,6 +7,8 @@ import { ComponentesComponent } from './componentes/componentes.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { BodyComponent } from './componentes/body/body.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { NodepagComponent } from './componentes/body/nodepag/nodepag.component';
+import { ExpresspagComponent } from './componentes/body/expresspag/expresspag.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterComponent } from './componentes/footer/footer.component';
     ComponentesComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    NodepagComponent,
+    ExpresspagComponent
   ],
   imports: [
     BrowserModule,
