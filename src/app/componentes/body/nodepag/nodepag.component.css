@@ -1,0 +1,20 @@
+* {
+    color: white;
+}
+.node {
+    height:auto;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.node > h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    background: linear-gradient(to top, black 0%, black 50%, transparent 50%, green 50%, green 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-fill-color: transparent;
+    border: 2px solid white;
+}
+
