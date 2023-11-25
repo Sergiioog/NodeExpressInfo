@@ -1,9 +1,10 @@
 section {
-    height: 80vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
+    margin-top: 5vh;
 }
 .divLenguaje {
     background: rgba( 58, 55, 55, 0.15 );
@@ -15,9 +16,8 @@ section {
     height: 250px;
     width: 250px;
     margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 15px;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 a {
     height: 100%;
