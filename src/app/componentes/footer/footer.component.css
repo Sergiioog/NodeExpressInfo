@@ -1,6 +1,10 @@
 
 footer {
-    background-color: #333;
+    background: rgba( 58, 55, 55, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(165, 165, 168, 0.37);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #fff;
     padding: 20px;
     text-align: center;
