@@ -71,4 +71,13 @@ figure, img {
     max-height: 100%;
     word-wrap: break-word; 
     overflow: scroll;
+    text-align: justify;
+}
+#dev {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    height: 180%;
+    max-width: 180%;
+    max-height: 180%;
+    margin: auto;
 }
