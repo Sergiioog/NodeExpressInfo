@@ -23,6 +23,7 @@
     transform: translateY(0);
     transition: transform 0.3s ease-in-out;
     margin-bottom: 30px;
+  
 }
 
 .seccion_imagen_datos {
@@ -72,6 +73,7 @@ figure, img {
     word-wrap: break-word; 
     overflow: scroll;
     text-align: justify;
+    overflow: hidden;
 }
 #dev {
     padding-top: 2vh;
