@@ -1,0 +1,39 @@
+section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+.divLenguaje {
+    background: rgba( 58, 55, 55, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(165, 165, 168, 0.37);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    max-width: 80%;
+    max-height: 80%;
+    transition: transform 0.3s ease-in-out; /* Agregamos una transición suave */
+
+}
+img:hover {
+    transform: scale(1.2); /* Escalamos la imagen al hacer hover */
+    z-index: 2; /* Ajustamos el índice z para que aparezca al frente */
+    cursor:pointer;
+}
