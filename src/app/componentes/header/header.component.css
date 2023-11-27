@@ -9,6 +9,7 @@ header {
     backdrop-filter: blur( 2px );
     -webkit-backdrop-filter: blur( 2px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
 }
 .logoDiv, .tituloDiv, .socialDiv  {
     height: 100%;
@@ -16,19 +17,24 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-
-.logoDiv{
-
+#redessociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tituloDiv {
-    
+svg {
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
-.socialDiv {
-    
+#logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-@media screen and (max-width: 320px) {
-    
+#logo img {
+    max-height: 80%;
+    max-width: 80%;
 }
