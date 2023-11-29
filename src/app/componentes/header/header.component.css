@@ -18,33 +18,43 @@ header {
     display: none;
 }
 
+@media screen and (min-width:425px) and (max-width:768px) {
+    header {
+        font-size:1rem;
+    }
+    .logoDiv, .tituloDiv, .socialDiv  {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #redessociales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    svg {
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 28px;
+        width: 28px;
+    }
+    #logo {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #logo img {
+        max-height: 95%;
+        max-width: 95%;
+    } 
+}
 
 
 
-/* .logoDiv, .tituloDiv, .socialDiv  {
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-#redessociales{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-svg {
-    color: white;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#logo {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#logo img {
-    max-height: 80%;
-    max-width: 80%;
-} */

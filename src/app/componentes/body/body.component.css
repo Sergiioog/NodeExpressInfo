@@ -35,3 +35,9 @@ img:hover {
     z-index: 2; /* Ajustamos el índice z para que aparezca al frente */
     cursor:pointer;
 }
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    section {
+        flex-direction: row;
+    }
+}
