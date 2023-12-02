@@ -39,5 +39,6 @@ img:hover {
 @media screen and (min-width:425px){
     section {
         flex-direction: row;
+    
     }
 }
